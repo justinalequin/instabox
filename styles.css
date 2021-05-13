@@ -1,0 +1,115 @@
+body {
+    background-color: #FAFAFA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+b {
+    color: black;
+}
+.masterbox {
+    display: flex;
+  
+}
+
+#instalogo {
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 150px;
+    display:flex
+}
+    .contents {
+        width: 70%;
+align-items: center;
+justify-content: flex-start;
+
+    }
+
+.topbar {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+#igtext{
+    
+    display: flex;
+    font-size: large;
+
+}
+
+
+#followingbutton {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    border: solid black 1px;
+    border-radius: 10px;
+    font-size: larger;
+
+}
+
+#more {
+justify-content: flex-end;
+font-size: large;
+}
+
+.numbers {
+    width: 40%;
+    display: flex;
+   justify-content: space-between;
+}
+
+#posts{
+
+    display: flex;
+
+}
+
+#followers{
+    justify-content: center;
+
+}
+
+#following{
+    justify-content: center;
+
+}
+.Bio {
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#instagramtext {
+    font-size: larger;
+    
+}
+
+#BioInput {
+display: flex;
+font-size: larger;
+
+}
+
+#link {   
+    font-size: larger;
+    color: #083A6E;
+   
+}
+
+#followedby {
+    color: #B8B8B8;
+
+
+}
+.categories {
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+     display: flex;
+    justify-content: space-around;
+    
+}
